@@ -1,0 +1,61 @@
+.rectangle-first{
+  width: 99%;
+  height: 135px;
+  border-radius: 5px;
+  border: #f2f2f2 2px solid;
+}
+/*top blue section*/
+.blue-top{
+  padding: 10px;
+  height: 60px;
+  /*top: 50px;*/
+  background-color: #f1f6ff;
+  border-bottom: #f2f2f2 2px solid;
+  color: #000066;
+  font-family: tahoma;
+  font-weight: 600;
+  font-size: 140%;
+}
+.browse-button{
+  color: #0073e6;
+  border-radius: 5px;
+  padding: 10px;
+  border: #f2f2f2 2px solid; 
+  float: right;
+  font-size: 70%;
+}
+/*fingerprint icon*/
+.material-icons{
+  vertical-align: middle;
+  padding: 0px 5px 0px 0px;
+}
+.blue-master{
+  line-height: 40px;
+  color: #9494ba;
+  font-size: 65%;
+}
+/*bottom white section*/
+.white-bottom{  
+  background-color: white;
+  padding: 10px;
+  font-family: tahoma;
+}  
+.fire-bit{
+  vertical-align: middle;
+  padding: 3px;
+}
+/*right floated primitive text*/
+.primeval-textstring{
+  font-family: courier;
+  line-height: 175%;
+  float: right;
+  color: #4d4d4d;
+}
+.lighter-primeval{
+  color: #a6a6a6;
+  padding: 4px;
+  padding-left: 20px;
+}
+.darker-primeval{
+  border-bottom: dotted #e6e6e6;
+}
