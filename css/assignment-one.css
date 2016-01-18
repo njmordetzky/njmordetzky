@@ -1,4 +1,4 @@
-.rectangle-first {
+.functionbar-rules {
   display: block;
   border-radius: 5px;
   border: #f2f2f2 2px solid;
@@ -6,7 +6,7 @@
 
 /* top blue section */
 
-.blue-top {
+.functionbar-headr {
   padding: 10px;
   height: 60px;
   background-color: #f1f6ff;
@@ -43,18 +43,18 @@
   font-size: 20px !important;
 }
 
-.blue-master {
+.headr-secndrow {
   line-height: 40px;
   color: #9494ba;
 }
 
-.header-rowtwo {
+.headr-textsecndrow {
   font-size: 14.56px;
 }
 
 /* bottom wite section */
 
-.white-bottom {  
+.functionbar-footr {  
   background-color: #ffffff;
   padding: 10px;
   font-family: tahoma;
@@ -79,12 +79,12 @@
   color: #4d4d4d;
 }
 
-.lighter-primeval {
+.searcriteria-primeval {
   color: #a6a6a6;
   padding: 4px;
   padding-left: 20px;
 }
 
-.darker-primeval {
+.userdata-primeval {
   border-bottom: dotted #e6e6e6;
 }
