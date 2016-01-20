@@ -8,13 +8,12 @@
 
 .functionbar-headr {
   padding: 10px;
-  height: 60px;
   background-color: #f1f6ff;
   border-bottom: #f2f2f2 2px solid;
   color: #000066;
   font-family: tahoma;
   font-weight: 600;
-  font-size: 22.4px;
+  font-size: 23px;
 }
 
 .browse-button {
@@ -24,9 +23,13 @@
   padding: 10px;
   border: #f2f2f2 2px solid; 
   float: right;
-  font-size: 15.68px;
+  font-size: 16px;
   font-weight: 600;
-  transition-duration: .4s;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
@@ -40,16 +43,16 @@
 .material-icons {
   vertical-align: -5px;
   padding: 0px 1px 0px 0px;
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
-.headr-secndrow {
+.headr-secnd-row {
   line-height: 40px;
   color: #9494ba;
 }
 
-.headr-textsecndrow {
-  font-size: 14.56px;
+.headr-text-secnd-row {
+  font-size: 15px;
 }
 
 /* bottom wite section */
@@ -66,7 +69,7 @@
   height: 27px;
 }
 
-.footer-firsttext {
+.footer-username {
   font-weight: bold;
 }
 
