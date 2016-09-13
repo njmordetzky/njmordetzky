@@ -363,7 +363,7 @@ height: 30vh;
 }
 
 .skills2 {
-  background-image: url("https://drops.azureedge.net/drops/files/acc_517128/182In?rscd=inline%3B%20filename%3Dwormwood%20diamond.png&rsct=binary&se=2016-09-01T12%3A02%3A46Z&sig=JUDdVf0tzYje0X1zKV6uqQedvpoKpVdSE2Rt2SYZQl8%3D&sp=r&sr=b&st=2016-09-01T11%3A02%3A46Z&sv=2013-08-15");
+  background-image: url("http://nathanielmordetzky.com/img/wormwood%20diamond.png");  
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -637,10 +637,10 @@ height: 30vh;
 .optionsMF .option3 {
   width: 22.125vw;
   height: 25vh;
-    margin: 0 0 0 0.5vw;
-    display: inline-block;
-    padding: 0;
-    background-image: url("https://drops.azureedge.net/drops/files/acc_517128/17i9?rscd=inline%3B%20filename%3Dmysite9.jpg&rsct=binary&se=2016-09-04T11%3A31%3A38Z&sig=Gu7REtgRX58Mit65Dxe3v3NaaAv3ZWW4PAm5mHfqjMA%3D&sp=r&sr=b&st=2016-09-04T10%3A31%3A38Z&sv=2013-08-15");
+  margin: 0 0 0 0.5vw;
+  display: inline-block;
+  padding: 0;
+  background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -649,10 +649,10 @@ height: 30vh;
 .optionsMF .option4 {
   width: 22.125vw;
   height: 25vh;
-      margin: 0 0 0 0.5vw;
-    display: inline-block;
-    padding: 0;
-    background-image: url("https://drops.azureedge.net/drops/files/acc_517128/14mSA?rscd=inline%3B%20filename%3Dmysite1.jpeg&rsct=binary&se=2016-09-04T11%3A34%3A24Z&sig=2YthFnYMd5ShUfAmChqehyIcFu6MiLxMXaECtx1H0OQ%3D&sp=r&sr=b&st=2016-09-04T10%3A34%3A24Z&sv=2013-08-15");
+  margin: 0 0 0 0.5vw;
+  display: inline-block;
+  padding: 0;
+  background-image: url("http://nathanielmordetzky.com/img/mysite1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
