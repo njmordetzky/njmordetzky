@@ -1,0 +1,183 @@
+.google-logo {
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.search-bar {
+  border: #a6a6a6 2px solid;
+  box-shadow: 0px 0px 1px 1px #e6e6e6;
+  border-radius: 2px;
+  height: 50px;
+  margin: 4em auto;
+  width: 1040px;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+  border: none;
+  font-size: 24px;
+  padding: 0px 0px 0px 15px;
+}
+
+.mic-icon {
+  font-size: 30px;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 6px;
+  color: #cc0000;
+}
+
+.mic-icon:before {
+  content: '';
+  display: inline-block;
+  height: 18px;
+  width: 8px;
+  border-radius: 9px;
+  background-color: #3333ff;
+  position: relative;
+  bottom: 12px;
+  left: 19px;
+}
+
+.links-tile {
+  display: inline-block;
+  margin: 0 16px 15px 0;
+  width: 240px;
+  height: 145px;
+  border: #d9d9d9 2px solid;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 14px 2px 2px;
+  overflow: hidden;
+}
+
+.links-tile,
+.links-tile:hover,
+.links-tile:visited,
+.links-tile:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+.links-tile:nth-child(4n) {
+  margin-right: 0;
+}
+
+.site-name {
+  display: inline;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: -7px;
+}
+
+.site-name:before {
+  content: "";
+  background-image :url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/267px-F_icon.svg.png");
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  vertical-align: text-bottom;
+  padding: 0 9px 0 0;
+  margin: 0 0 0 6px;
+}
+
+.grid-site-image {
+  width: 100%;
+}
+
+.tile-container {
+  margin: 4em auto;
+  width: 1040px;
+}
+
+.tile-container > * {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+@media (max-width:1260px) {
+  
+  .tile-container {
+    width: 776px;
+    height: 340px;
+    overflow: hidden;
+  }
+  
+  .links-tile:nth-child(4n) {
+    margin-right: 16px;
+  }
+  
+  .links-tile:nth-child(3n) {
+    margin-right: 0px;
+  }
+
+  .search-bar {
+  width: 776px;
+  }
+  
+}
+
+@media (max-width:1000px) {
+  
+  .tile-container {
+    width: 513px;
+    height: 340px;
+    overflow: hidden;
+  }
+  
+  .links-tile:nth-child(3n) {
+    margin-right: 16px;
+  }
+  
+  .links-tile:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .search-bar {
+  width: 513px;
+  }
+
+}
+
+@media (max-width:660px) {
+  
+  .tile-container {
+    width: 250px;
+    height: 340px;
+    overflow: hidden;
+  }
+  
+  .links-tile:nth-child(2n) {
+    margin-right: 16px;
+  }
+  
+  .links-tile:nth-child(1n) {
+    margin-right: 0px;
+  }
+
+  .search-bar {
+  width: 250px;
+  }
+  
+  .search-bar > input {
+    width: 190px;
+    font-size: 14px;
+  }
+
+}
