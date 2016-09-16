@@ -2,30 +2,30 @@
   background: white;
   border: 0;
   margin: 0;
-}
 
-.i {
-  font-family: "de-walpergens-pica";
-  font-size: 80px;
-  line-height: 0em;
-}
+  .paragraph1 {
+    font-family: $main-font-ink;
+    font-size: 20px;
+    max-width: 35%;
+    text-align: left;
+    margin: 2em auto;
+    padding: 2em;
 
-.paragraph1 {
-  font-family: "de-walpergens-pica";
-  font-size: 20px;
-  max-width: 35%;
-  text-align: left;
-  margin: 2em auto;
-  padding: 2em;
-}
+    .giantFirstLetter {
+      font-family: $main-font-ink;
+      font-size: 80px;
+      line-height: 0em;
+    }
+  }
 
-.paragraph2 {
-  font-family: "de-walpergens-pica";
-  font-size: 20px;
-  max-width: 35%;
-  text-align: left;
-  margin: 1em auto;
-  padding: 1em;
+  .paragraph2 {
+    font-family: $main-font-ink;
+    font-size: 20px;
+    max-width: 35%;
+    text-align: left;
+    margin: 1em auto;
+    padding: 1em;
+  }
 }
 
 .bottomDoodle {

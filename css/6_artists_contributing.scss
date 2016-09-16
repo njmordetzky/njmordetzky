@@ -6,68 +6,69 @@
   white-space: nowrap;
   position: relative;
   overflow: hidden;
+
+  .mainLargeImage {
+    margin: 10vh 5vw 1vh;
+    width: 90vw;
+    height: 45vh;
+    background-image: url("http://nathanielmordetzky.com/img/mysite14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .smallImages {
+    margin: 1vh 5vw 21vh;
+    width: 90vw;
+    height: 25vh;
+
+    .smlImg1 {
+      width: 22.125vw;
+      height: 25vh;
+      margin: 0;
+      display: inline-block;
+      padding: 0;
+      background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .smlImg2 {
+      width: 22.125vw;
+      height: 25vh;
+      margin: 0 0 0 0.5vw;
+      display: inline-block;
+      padding: 0;     
+      background-image: url("http://1.bp.blogspot.com/-TXvJE0xI_pQ/U_IyC7WQaxI/AAAAAAAAAwQ/4DO908XZiK0/s1600/DP_96.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .smlImg3 {
+      width: 22.125vw;
+      height: 25vh;
+      margin: 0 0 0 0.5vw;
+      display: inline-block;
+      padding: 0;
+      background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .smlImg4 {
+      width: 22.125vw;
+      height: 25vh;
+      margin: 0 0 0 0.5vw;
+      display: inline-block;
+      padding: 0;
+      background-image: url("http://nathanielmordetzky.com/img/mysite1.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+    }
+  }
 }
 
-.artistsContributing .mainLargeImage {
-  margin: 10vh 5vw 1vh;
-  width: 90vw;
-  height: 45vh;
-  background-image: url("http://nathanielmordetzky.com/img/mysite14.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.artistsContributing .smallImages {
-  margin: 1vh 5vw 21vh;
-  width: 90vw;
-  height: 25vh;
-}
-
-.smallImages .smlImg1 {
-  width: 22.125vw;
-  height: 25vh;
-  margin: 0;
-  display: inline-block;
-  padding: 0;
-  background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.smallImages .smlImg2 {
-  width: 22.125vw;
-  height: 25vh;
-  margin: 0 0 0 0.5vw;
-  display: inline-block;
-  padding: 0;     
-  background-image: url("http://1.bp.blogspot.com/-TXvJE0xI_pQ/U_IyC7WQaxI/AAAAAAAAAwQ/4DO908XZiK0/s1600/DP_96.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.smallImages .smlImg3 {
-  width: 22.125vw;
-  height: 25vh;
-  margin: 0 0 0 0.5vw;
-  display: inline-block;
-  padding: 0;
-  background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.smallImages .smlImg4 {
-  width: 22.125vw;
-  height: 25vh;
-  margin: 0 0 0 0.5vw;
-  display: inline-block;
-  padding: 0;
-  background-image: url("http://nathanielmordetzky.com/img/mysite1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}

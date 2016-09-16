@@ -3,12 +3,12 @@
   font-size: 90px;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+  display: none;
 }
 
 .header {
-  background-image: url("https://drops.azureedge.net/drops/files/acc_517128/FDvo?rscd=inline%3B%20filename%3DLayer%206.png&rsct=binary&se=2016-08-30T21%3A35%3A42Z&sig=5BbCF97iBKz6HUQZbZkq%2BmgIxNMQrq0225Sghp861YA%3D&sp=r&sr=b&st=2016-08-30T20%3A35%3A42Z&sv=2013-08-15");
+  background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
   background-image: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -18,125 +18,92 @@
   display: flex;
   align-items: center;
   justify-content: center;
-      background-image: url("https://drops.azureedge.net/drops/files/acc_517128/14mSA?rscd=inline%3B%20…oaE%2FsjOVzvDy9Sgw%3D&sp=r&sr=b&st=2016-09-07T19%3A16%3A03Z&sv=2013-08-15");
-      background-image: url("https://drops.azureedge.net/drops/files/acc_517128/14mSA?rscd=inline%3B%20…oaE%2FsjOVzvDy9Sgw%3D&sp=r&sr=b&st=2016-09-07T19%3A16%3A03Z&sv=2013-08-15");
-    background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
-    /* background-image: url("http://nathanielmordetzky.com/img/mysite2.jpeg"); */
-    /* background-image: url("http://nathanielmordetzky.com/img/mysite17.jpeg"); */
-    /* background-image: url("http://nathanielmordetzky.com/img/mysite15.jpeg"); */
-    /* background-image: url("http://nathanielmordetzky.com/img/mysite16.jpeg"); */
-    /* background-image: url("http://nathanielmordetzky.com/img/mysite12.jpeg"); */
 }
-
-.opaqueImg1 {
-    position: absolute;
-    height: 148vh;
-    opacity: 0.15;
-    bottom: 0vh;
-    overflow: hidden;
+.header .opaqueImg1 {
+  position: absolute;
+  height: 148vh;
+  opacity: 0.15;
+  bottom: 0vh;
+  overflow: hidden;
 }
-
-.opaqueImg2 {
-    position: absolute;
-    height: 160vh;
-    opacity: 0.03;
-    bottom: 0vh;
-    overflow: hidden;
+.header .opaqueImg2 {
+  position: absolute;
+  height: 160vh;
+  opacity: 0.03;
+  bottom: 0vh;
+  overflow: hidden;
 }
-
-.headTop {
-    position: absolute;
-    width: 0.54em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: 1.73em;
-    z-index: 999;
+.header .navDiv1 {
+  position: absolute;
+  width: 0.54em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: 1.73em;
+  z-index: 999;
 }
-
-.headTop2 {
-    position: absolute;
-    width: 0.799em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: 0.9em;
-    z-index: 999;
+.header .navDiv2 {
+  position: absolute;
+  width: 0.799em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: 0.9em;
+  z-index: 999;
 }
-
-.headTop3 {
-    position: fixed;
-    width: 1.35em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: -0.48em;
-    z-index: 999;
+.header .navDiv3 {
+  position: fixed;
+  width: 1.35em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: -0.48em;
+  z-index: 999;
 }
-
-.headTop4 {
-    position: absolute;
-    width: 0.06em;
-    height: 20vh;
-    background: rgba(0, 24, 47, 0.4);
-    top: 0;
-    right: 3.28em;
-    z-index: 999;
+.header .navStyleDiv1 {
+  position: absolute;
+  width: 0.03em;
+  height: 28vh;
+  background: rgba(0, 24, 47, 0.3);
+  top: 0;
+  right: 3.36em;
+  z-index: 999;
 }
-
-.headTop5 {
-    position: absolute;
-    width: 0.03em;
-    height: 28vh;
-    background: rgba(0, 24, 47, 0.3);
-    top: 0;
-    right: 3.36em;
-    z-index: 999;
+.header .navStyleDiv2 {
+  position: absolute;
+  width: 0.06em;
+  height: 20vh;
+  background: rgba(0, 24, 47, 0.4);
+  top: 0;
+  right: 3.28em;
+  z-index: 999;
 }
-
-.headTop6 {
-    position: absolute;
-    width: 0.02em;
-    height: 16vh;
-    background: rgba(0, 24, 47, 0.25);
-    top: 0;
-    right: 2.4em;
-    z-index: 999;
+.header .navStylediv3 {
+  position: absolute;
+  width: 0.02em;
+  height: 16vh;
+  background: rgba(0, 24, 47, 0.25);
+  top: 0;
+  right: 2.4em;
+  z-index: 999;
 }
-
-.link1 {
-    position: fixed;
-    top: 8.7vh;
-    right: 1em;
-    width: 14em;
-    /* background: #85b4ca; */
-    height: 1em;
-    color: #a4c0cb;
-    font-family: helvetica;
-    FONT-SIZE: 0.15em;
-    letter-spacing: 1.1px;
-    line-height: 2.3em;
-    z-index: 999;
+.header .navLinks {
+  position: fixed;
+  top: 8.7vh;
+  right: 1em;
+  width: 14em;
+  height: 1em;
+  color: #a4c0cb;
+  font-family: helvetica;
+  font-size: 0.15em;
+  letter-spacing: 1.1px;
+  line-height: 2.3em;
+  z-index: 999;
 }
-
-/* .link1 {
-  width: 2vw;
-  float: right;
-  color: white;
-  
-} */
-
-.logo {
+.header .logo {
   margin: auto;
-/*   border: 1px solid red; */
 }
-
-/* .link1 {
-    content: "\f087"; 
-  font-family: FontAwesome;
-}  */
-
-.upTriangle {
+.header .logo .upTriangle {
   font-family: "hobeaux-rococeaux";
   font-size: .8em;
   text-align: center;
@@ -144,48 +111,40 @@
   line-height: .1em;
   transform: rotate(-180deg);
 }
-
-.myNameIs {
+.header .logo .myNameIs {
   font-family: "acier-bat-outline";
   text-align: center;
   color: white;
   letter-spacing: 0.14em;
   margin-left: 0.11em;
 }
-
-.myNameLower {
+.header .logo .myNameIs .myNameLowerCase {
   font-size: .9em;
 }
-
-.n {
-  font-family: "acier-bat-outline";
-  color: red;
-  font-size: 1.3em;
-  line-height: .15em;
-  letter-spacing: -0.02em;
-  text-align: center; 
-  margin-left: -0.13em;
-}
-
-.athanie {
+.header .logo .nathaniel {
   font-family: "acier-bat-gris";
-  text-align: center;  
+  text-align: center;
   color: red;
   font-size: 2em;
   line-height: 0em;
   letter-spacing: -0.03em;
 }
-
-.l {
+.header .logo .nathaniel .n {
+  font-family: "acier-bat-outline";
+  color: red;
+  font-size: 1.3em;
+  line-height: .15em;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-left: -0.13em;
+}
+.header .logo .nathaniel .l {
   font-family: "acier-bat-gris";
   color: red;
   font-size: 1.3em;
   line-height: .4em;
-/*   letter-spacing: .9em; */
-/*   margin-left: -0.11em; */
 }
-
-.line {
+.header .logo .line {
   font-family: "acier-bat-outline";
   text-align: center;
   color: white;
@@ -193,35 +152,30 @@
   font-size: 0.25em;
   line-height: 2.5em;
 }
-
-.andImA {
+.header .logo .andImA {
   font-family: "texas-hero";
-  text-align: center;  
+  text-align: center;
   color: white;
   font-size: 0.8em;
   line-height: 0.4em;
 }
-
-p.andImAFiller {
-    line-height: 0.07em;
-    color: transparent;
+.header .logo .andImABlankElement {
+  line-height: 0.07em;
+  color: transparent;
 }
-
-.coder {
+.header .logo .coder {
   font-family: "acier-bat-outline";
-  text-align: center;  
+  text-align: center;
   color: red;
   letter-spacing: -0.04em;
   font-weight: 900;
   margin-left: -0.1em;
   line-height: 1.3;
 }
-
-.er {
+.header .logo .coder .er {
   letter-spacing: -0.02em;
 }
-
-.downTriangle {
+.header .logo .downTriangle {
   font-family: "hobeaux-rococeaux";
   text-align: center;
   color: white;
@@ -229,34 +183,26 @@ p.andImAFiller {
   line-height: 0em;
 }
 
-.header2 {
+.bio {
   background: white;
-/*   width: 100vw;
-  height: 100vh; */
   border: 0;
   margin: 0;
-/*   background-image: url("https://drops.azureedge.net/drops/files/acc_517128/4tUJ?rscd=inline%3B%20filename%3Dwormwood%20vector%20round.png&rsct=binary&se=2016-08-31T08%3A50%3A48Z&sig=aIpcpZD7TzFdOeLGqF2U52h7T8Jp0C7AncseXD7rRcU%3D&sp=r&sr=b&st=2016-08-31T07%3A50%3A48Z&sv=2013-08-15");
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
-
-.i {
-  font-family: "de-walpergens-pica";
-  font-size: 80px;
-  line-height: 0em;
-}
-
-.bio {
-  font-family: "de-walpergens-pica";
+.bio .paragraph1 {
+  font-family: de-walpergens-pica;
   font-size: 20px;
   max-width: 35%;
   text-align: left;
   margin: 2em auto;
   padding: 2em;
 }
-
-.bio2 {
-  font-family: "de-walpergens-pica";
+.bio .paragraph1 .giantFirstLetter {
+  font-family: de-walpergens-pica;
+  font-size: 80px;
+  line-height: 0em;
+}
+.bio .paragraph2 {
+  font-family: de-walpergens-pica;
   font-size: 20px;
   max-width: 35%;
   text-align: left;
@@ -270,22 +216,6 @@ p.andImAFiller {
   font-size: 1em;
 }
 
-/* .hemlock {
-  background-image: url("https://drops.azureedge.net/drops/files/acc_517128/4tUJ?rscd=inline%3B%20filename%3Dwormwood%20vector%20round.png&rsct=binary&se=2016-08-31T08%3A50%3A48Z&sig=aIpcpZD7TzFdOeLGqF2U52h7T8Jp0C7AncseXD7rRcU%3D&sp=r&sr=b&st=2016-08-31T07%3A50%3A48Z&sv=2013-08-15");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 30vw;
-  width: 30vw;
-  margin: 80px auto 40px;
-  float: left;
-} */
-
-/* .hemlockRight {
-  margin: 80px;
-  float: right;
-  transform:rotateY(180deg);
-} */
-
 .skills {
   background-image: url("http://nathanielmordetzky.com/img/mysite14.jpeg");
   background-image: no-repeat;
@@ -293,77 +223,75 @@ p.andImAFiller {
   width: 100vw;
   height: 100vh;
   border: none;
-  margin: none; 
+  margin: none;
   overflow: hidden;
 }
-
-.skilBox {
+.skills .skilBox {
   width: 10vw;
   height: 10vw;
   background: transparent;
   float: left;
-/*   outline: 1px solid red; */
   border: none;
   padding: 0px;
   margin: 0px;
-/*   color: black; */
   font-size: 0.17em;
   font-family: "de-walpergens-pica";
   font-weight: 100;
   text-align: center;
   vertical-align: middle;
-  line-height: 10vw; 
+  line-height: 10vw;
   color: transparent;
-  text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;
-/*   animation-play-state: paused; 
-  animation-name: example;
-  animation-duration: 1s; */
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
 }
-
-.skilBoxThin {
-  text-shadow: none;
-  color: black;
-  font-size: 1em;
-}
-
-.skilBoxBold {
+.skills .skilBoxBoldFont {
   text-shadow: none;
   color: black;
   font-weight: 900;
   font-size: 1em;
 }
-
-.skilBoxIcon {
+.skills .skilBoxThinFont {
+  text-shadow: none;
+  color: black;
+  font-size: 1em;
+}
+.skills .skilBoxIcon {
   background-image: url("http://nathanielmordetzky.com/img/wormwood%20inverse.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-.skilBox.animate {
-  animation: example 6s, textColor 6s;
-} 
-
-@keyframes example {
-  0% {background-color: transparent;}
-  10% { background-color: rgba(254, 25, 25, .6);}
-  80% {background-color: rgba(0, 0, 0, .8);}
+.skills .skilBox.animate {
+  animation: skilBoxBackground 6s, skilBoxTextColor 6s;
 }
-
-@keyframes textColor {
-  0% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
-  10% {text-shadow: rgba(0,0,0,1) 6px 3px 1px;}
-/*   80% {text-shadow: rgba(255,255,255,1) 0px 3px 2px;} */
-  80% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
+@keyframes skilBoxBackground {
+  0% {
+    background-color: transparent;
+  }
+  10% {
+    background-color: rgba(254, 25, 25, 0.6);
+  }
+  80% {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 }
-
+@keyframes skilBoxTextColor {
+  0% {
+    text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
+  }
+  10% {
+    text-shadow: black 6px 3px 1px;
+  }
+  80% {
+    text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
+  }
+}
 .skillsBottom {
   width: 100vw;
-height: 30vh;
-    background: linen;
+  height: 30vh;
+  background: linen;
 }
 
-.skills2 {
-  background-image: url("http://nathanielmordetzky.com/img/wormwood%20diamond.png");  
+.showroom {
+  background-image: url("http://nathanielmordetzky.com/img/wormwood%20diamond.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -372,91 +300,66 @@ height: 30vh;
   width: 100vw;
   height: 100vh;
   border: none;
-  padding: 10vh; 
+  padding: 10vh;
   overflow: hidden;
   column-count: 3;
-  column-gap: 10vh; 
+  column-gap: 10vh;
   box-sizing: border-box;
-/*   box-shadow: inset 0px 3px 10px 0 #000000; */
+  /* box-shadow: inset 0px 3px 10px 0 #000000; */
 }
-
-.show {
+.showroom .exhibitHolder {
   background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
-  height: 20vh; 
+  height: 20vh;
   margin-bottom: 10vh;
   cursor: zoom-in;
-  overflow: hidden; /* fix for Firefox */
+  overflow: hidden;
   break-inside: avoid-column;
+  /* fix for Firefox */
   -webkit-column-break-inside: avoid;
-/*   vertial-align: middle; */
-/*   box-shadow: 0px 2px 5px #888888; */
-/*   display: inline-block; */
-/*   overflow: hidden; */
-/*       -webkit-column-break-inside: avoid; /* Chrome, Safari */ */
-/*     page-break-inside: avoid;           /* Theoretically FF 20+ */ */
-/*     break-inside: avoid-column;         /* IE 11 */ */
-/*     display:table;                      Actually FF 20+ */
+  /* box-shadow: 0px 2px 5px #888888; */
 }
-
-.show1 {
+.showroom .holderVariant1 {
   height: 10vh;
 }
-
-.show2 {
+.showroom .holderVariant2 {
   height: 30vh;
 }
-
-.show3 {
+.showroom .LogoShowRoom {
   height: 40vh;
   background-image: none;
-/*   outline: 1px solid red; */
   cursor: default;
   font-family: "de-walpergens-pica";
   color: black;
   font-size: 1em;
-/*   font-weight: 100; */
-/*   text-align: center; */
-/*   vertical-align: middle; */
   padding: 40px 20px;
   box-sizing: border-box;
-  line-height: 40vH; 
+  line-height: 40vH;
   letter-spacing: 0.01em;
-/*   transform: rotate(90deg); */
+  /* transform: rotate(90deg); */
 }
-
-.s {
+.showroom .LogoShowRoom .s {
   font-size: 3em;
   line-height: 0.0px;
 }
-
-.how {
-    font-size: 1.4em;
-    line-height: 0.86em;
-    margin-left: 6.5vw;
+.showroom .LogoShowRoom .how {
+  font-size: 1.4em;
+  line-height: 0.86em;
+  margin-left: 6.5vw;
 }
-
-.r {
+.showroom .LogoShowRoom .r {
   font-size: 3em;
   line-height: 0.7em;
   padding-left: 6vw;
 }
-
-.oom {
-    font-size: 1.4em;
-
-/*  
-    line-height: 0em;
-    margin-left: 13.9vw;
-    margin-top: -1.4em;   */
- 
-    line-height: 0em;
-    margin-left: 13vw;
-    margin-top: -0.79em;
-    letter-spacing: -0.03em;
+.showroom .LogoShowRoom .oom {
+  font-size: 1.4em;
+  line-height: 0em;
+  margin-left: 13vw;
+  margin-top: -0.79em;
+  letter-spacing: -0.03em;
 }
 
 .thanks {
-/*   outline: 1px solid black; */
   max-width: 100vw;
   width: 100vw;
   height: 100vh;
@@ -464,28 +367,20 @@ height: 30vh;
   white-space: nowrap;
   position: relative;
   overflow: hidden;
-/*   padding: 10vh; 
-  overflow: hidden;
-  column-count: 3;
-  column-gap: 10vh; 
-  box-sizing: border-box; */
 }
-
-.top {
+.thanks .topPlaceholder {
   width: 100vw;
   height: 30vh;
   background: #71a2b2;
 }
-
-.more {
+.thanks .more {
   margin-top: 18vh;
   height: 35vh;
   width: 1.5vw;
   float: left;
   background: #589b98;
 }
-
-.more div {
+.thanks .more .moreText {
   margin-top: 4vh;
   margin-left: -0.15em;
   transform: rotate(90deg);
@@ -496,15 +391,13 @@ height: 30vh;
   font-family: "acier-bat-noir";
   letter-spacing: 0.8em;
 }
-
-.bottom {
+.thanks .thanksMainContent {
   z-index: -1;
   height: 35vh;
   width: 100vw;
   position: relative;
 }
-
-.bottom .thisSite {
+.thanks .thanksMainContent .thisSite {
   position: absolute;
   width: 12em;
   right: 24.5em;
@@ -514,8 +407,7 @@ height: 30vh;
   font-size: 0.2em;
   letter-spacing: 0.3em;
 }
-
-.bottom .thankYou {
+.thanks .thanksMainContent .thankYou {
   position: absolute;
   width: 12em;
   right: 24.5em;
@@ -525,28 +417,7 @@ height: 30vh;
   font-size: 0.2em;
   letter-spacing: 0.3em;
 }
-
-.bottom p {
-  position: absolute;
-  bottom: 0;
-  left: 0; 
-  font-size: 0.5em;
-  font-weight: 100;
-  line-height: 0.25;
-  white-space: nowrap;
-}
-
-.bottom .signature {
-  position: absolute;
-  bottom: 0;
-  font-size: 1.6em;
-  font-weight: 100;
-  line-height: 0.5em;
-  font-family: "texas-hero";
-  margin-left: 11.65vw;
-}
-
-.bottom .selfie {
+.thanks .thanksMainContent .selfie {
   position: absolute;
   bottom: -1.7em;
   left: 42vw;
@@ -555,35 +426,48 @@ height: 30vh;
   border-radius: 16vw;
   z-index: 1;
 }
+.thanks .thanksMainContent .signature {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.6em;
+  font-weight: 100;
+  line-height: 0.5em;
+  font-family: "texas-hero";
+  margin-left: 11.65vw;
+}
+.thanks .thanksMainContent .dottedLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 0.5em;
+  font-weight: 100;
+  line-height: 0.25;
+  white-space: nowrap;
+}
 
-.footerThanks {
+.thanksFooter {
   border-top: 1px solid #f8f0f9;
 }
-
-.left {
-      font-size: 12px;
-    font-family: "de-walpergens-pica";
-    margin: auto;
-    border: none;
-    display: inline-block;
-    width: 49vw;
-    text-align: center;
+.thanksFooter .thanksFooterLeft {
+  font-size: 12px;
+  font-family: "de-walpergens-pica";
+  margin: auto;
+  border: none;
+  display: inline-block;
+  width: 49vw;
+  text-align: center;
+}
+.thanksFooter .thanksFooterRight {
+  font-size: 12px;
+  font-family: "de-walpergens-pica";
+  display: inline-block;
+  width: 49vw;
+  color: black;
+  text-align: center;
+  height: 21vh;
 }
 
-.right {
-      font-size: 12px;
-    font-family: "de-walpergens-pica";
-    /* margin: auto; */
-    /* border: none; */
-    display: inline-block;
-    width: 49vw;
-    color: black;
-    text-align: center;
-    height: 21vh;
-}
-
-.muscleFlex {
-/*   outline: 1px solid red; */
+.artistsContributing {
   max-width: 100vw;
   width: 100vw;
   height: 100vh;
@@ -592,8 +476,7 @@ height: 30vh;
   position: relative;
   overflow: hidden;
 }
-
-.muscleFlex .focusMF {
+.artistsContributing .mainLargeImage {
   margin: 10vh 5vw 1vh;
   width: 90vw;
   height: 45vh;
@@ -602,39 +485,34 @@ height: 30vh;
   background-size: cover;
   overflow: hidden;
 }
-
-.muscleFlex .optionsMF {
+.artistsContributing .smallImages {
   margin: 1vh 5vw 21vh;
   width: 90vw;
   height: 25vh;
-/*   outline: 1px solid black; */
 }
-
-.optionsMF .option1 {
+.artistsContributing .smallImages .smlImg1 {
   width: 22.125vw;
   height: 25vh;
   margin: 0;
-    display: inline-block;
-    padding: 0;
-    background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
+  display: inline-block;
+  padding: 0;
+  background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-
-.optionsMF .option2 {
+.artistsContributing .smallImages .smlImg2 {
   width: 22.125vw;
   height: 25vh;
-    margin: 0 0 0 0.5vw;
-    display: inline-block;
-    padding: 0;     
+  margin: 0 0 0 0.5vw;
+  display: inline-block;
+  padding: 0;
   background-image: url("http://1.bp.blogspot.com/-TXvJE0xI_pQ/U_IyC7WQaxI/AAAAAAAAAwQ/4DO908XZiK0/s1600/DP_96.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-
-.optionsMF .option3 {
+.artistsContributing .smallImages .smlImg3 {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -645,8 +523,7 @@ height: 30vh;
   background-size: cover;
   overflow: hidden;
 }
-
-.optionsMF .option4 {
+.artistsContributing .smallImages .smlImg4 {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -657,3 +534,5 @@ height: 30vh;
   background-size: cover;
   overflow: hidden;
 }
+
+/*# sourceMappingURL=nathanielmordetzky.css.map */

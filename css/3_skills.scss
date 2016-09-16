@@ -7,59 +7,59 @@
   border: none;
   margin: none; 
   overflow: hidden;
-}
 
-.skilBox {
-  width: 10vw;
-  height: 10vw;
-  background: transparent;
-  float: left;
-  border: none;
-  padding: 0px;
-  margin: 0px;
-  font-size: 0.17em;
-  font-family: "de-walpergens-pica";
-  font-weight: 100;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 10vw; 
-  color: transparent;
-  text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;
-}
+  .skilBox {
+    width: 10vw;
+    height: 10vw;
+    background: transparent;
+    float: left;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.17em;
+    font-family: "de-walpergens-pica";
+    font-weight: 100;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vw; 
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;
+  }
 
-.skilBoxThinFont {
-  text-shadow: none;
-  color: black;
-  font-size: 1em;
-}
+  .skilBoxBoldFont {
+    text-shadow: none;
+    color: black;
+    font-weight: 900;
+    font-size: 1em;
+  }
 
-.skilBoxBoldFont {
-  text-shadow: none;
-  color: black;
-  font-weight: 900;
-  font-size: 1em;
-}
+  .skilBoxThinFont {
+    text-shadow: none;
+    color: black;
+    font-size: 1em;
+  }
 
-.skilBoxIcon {
-  background-image: url("http://nathanielmordetzky.com/img/wormwood%20inverse.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+  .skilBoxIcon {
+    background-image: url("http://nathanielmordetzky.com/img/wormwood%20inverse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-.skilBox.animate {
-  animation: skilBoxBackground 6s, skilBoxTextColor 6s;
-} 
+  .skilBox.animate {
+    animation: skilBoxBackground 6s, skilBoxTextColor 6s;
+  } 
 
-@keyframes skilBoxBackground {
-  0% {background-color: transparent;}
-  10% { background-color: rgba(254, 25, 25, .6);}
-  80% {background-color: rgba(0, 0, 0, .8);}
-}
+  @keyframes skilBoxBackground {
+    0% {background-color: transparent;}
+    10% { background-color: rgba(254, 25, 25, .6);}
+    80% {background-color: rgba(0, 0, 0, .8);}
+  }
 
-@keyframes skilBoxTextColor {
-  0% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
-  10% {text-shadow: rgba(0,0,0,1) 6px 3px 1px;}
-  80% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
+  @keyframes skilBoxTextColor {
+    0% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
+    10% {text-shadow: rgba(0,0,0,1) 6px 3px 1px;}
+    80% {text-shadow: rgba(255,255,255,0.8) 0px 3px 3px;}
+  }
 }
 
 .skillsBottom {
