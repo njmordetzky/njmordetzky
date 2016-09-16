@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  font-size: 90px;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+.header {
+  background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
+  background-image: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  margin: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opaqueImg1 {
+  position: absolute;
+  height: 148vh;
+  opacity: 0.15;
+  bottom: 0vh;
+  overflow: hidden;
+}
+
+.opaqueImg2 {
+  position: absolute;
+  height: 160vh;
+  opacity: 0.03;
+  bottom: 0vh;
+  overflow: hidden;
+}
+
+.navDiv1 {
+  position: absolute;
+  width: 0.54em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: 1.73em;
+  z-index: 999;
+}
+
+.navDiv2 {
+  position: absolute;
+  width: 0.799em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: 0.9em;
+  z-index: 999;
+}
+
+.navDiv3 {
+  position: fixed;
+  width: 1.35em;
+  height: 11vh;
+  background: rgba(0, 24, 47, 0.51);
+  top: 0;
+  right: -0.48em;
+  z-index: 999;
+}
+
+.navStyleDiv1 {
+  position: absolute;
+  width: 0.03em;
+  height: 28vh;
+  background: rgba(0, 24, 47, 0.3);
+  top: 0;
+  right: 3.36em;
+  z-index: 999;
+}
+
+.navStyleDiv2 {
+  position: absolute;
+  width: 0.06em;
+  height: 20vh;
+  background: rgba(0, 24, 47, 0.4);
+  top: 0;
+  right: 3.28em;
+  z-index: 999;
+}
+
+.navStylediv3 {
+  position: absolute;
+  width: 0.02em;
+  height: 16vh;
+  background: rgba(0, 24, 47, 0.25);
+  top: 0;
+  right: 2.4em;
+  z-index: 999;
+}
+
+.navLinks {
+  position: fixed;
+  top: 8.7vh;
+  right: 1em;
+  width: 14em;
+  height: 1em;
+  color: #a4c0cb;
+  font-family: helvetica;
+  font-size: 0.15em;
+  letter-spacing: 1.1px;
+  line-height: 2.3em;
+  z-index: 999;
+}
+
+.logo {
+  margin: auto;
+}
+
+.upTriangle {
+  font-family: "hobeaux-rococeaux";
+  font-size: .8em;
+  text-align: center;
+  color: white;
+  line-height: .1em;
+  transform: rotate(-180deg);
+}
+
+.myNameIs {
+  font-family: "acier-bat-outline";
+  text-align: center;
+  color: white;
+  letter-spacing: 0.14em;
+  margin-left: 0.11em;
+}
+
+.myNameLowerCase {
+  font-size: .9em;
+}
+
+.nathaniel {
+  font-family: "acier-bat-gris";
+  text-align: center;  
+  color: red;
+  font-size: 2em;
+  line-height: 0em;
+  letter-spacing: -0.03em;
+}
+
+.n {
+  font-family: "acier-bat-outline";
+  color: red;
+  font-size: 1.3em;
+  line-height: .15em;
+  letter-spacing: -0.02em;
+  text-align: center; 
+  margin-left: -0.13em;
+}
+
+.l {
+  font-family: "acier-bat-gris";
+  color: red;
+  font-size: 1.3em;
+  line-height: .4em;
+}
+
+.line {
+  font-family: "acier-bat-outline";
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 0.25em;
+  line-height: 2.5em;
+}
+
+.andImA {
+  font-family: "texas-hero";
+  text-align: center;  
+  color: white;
+  font-size: 0.8em;
+  line-height: 0.4em;
+}
+
+.andImABlankElement {
+  line-height: 0.07em;
+  color: transparent;
+}
+
+.coder {
+  font-family: "acier-bat-outline";
+  text-align: center;  
+  color: red;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+  margin-left: -0.1em;
+  line-height: 1.3;
+}
+
+.er {
+  letter-spacing: -0.02em;
+}
+
+.downTriangle {
+  font-family: "hobeaux-rococeaux";
+  text-align: center;
+  color: white;
+  font-size: .8em;
+  line-height: 0em;
+}
