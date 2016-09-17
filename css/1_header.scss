@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
 
-  .opaqueImg1 {
+  .opaque-img-rafters {
     position: absolute;
     height: 148vh;
     opacity: 0.15;
@@ -27,7 +27,7 @@
     overflow: hidden;
   }
 
-  .opaqueImg2 {
+  .opaque-img-treetops {
     position: absolute;
     height: 160vh;
     opacity: 0.03;
@@ -35,7 +35,7 @@
     overflow: hidden;
   }
 
-  .navDiv1 {
+  .nav-div1 {
     position: absolute;
     width: 0.54em;
     height: 11vh;
@@ -45,7 +45,7 @@
     z-index: 999;
   }
 
-  .navDiv2 {
+  .nav-div2 {
     position: absolute;
     width: 0.799em;
     height: 11vh;
@@ -55,7 +55,7 @@
     z-index: 999;
   }
 
-  .navDiv3 {
+  .nav-div3 {
     position: fixed;
     width: 1.35em;
     height: 11vh;
@@ -65,7 +65,7 @@
     z-index: 999;
   }
 
-  .navStyleDiv1 {
+  .nav-style-div1 {
     position: absolute;
     width: 0.03em;
     height: 28vh;
@@ -75,7 +75,7 @@
     z-index: 999;
   }
 
-  .navStyleDiv2 {
+  .nav-style-div2 {
     position: absolute;
     width: 0.06em;
     height: 20vh;
@@ -85,7 +85,7 @@
     z-index: 999;
   }
 
-  .navStylediv3 {
+  .nav-style-div3 {
     position: absolute;
     width: 0.02em;
     height: 16vh;
@@ -95,7 +95,7 @@
     z-index: 999;
   }
 
-  .navLinks {
+  .nav-links {
     position: fixed;
     top: 8.7vh;
     right: 1em;
@@ -112,7 +112,7 @@
   .logo {
     margin: auto;
 
-    .upTriangle {
+    .up-triangle {
       font-family: "hobeaux-rococeaux";
       font-size: .8em;
       text-align: center;
@@ -121,14 +121,14 @@
       transform: rotate(-180deg);
     }
 
-    .myNameIs {
+    .my-name-is {
       font-family: "acier-bat-outline";
       text-align: center;
       color: white;
       letter-spacing: 0.14em;
       margin-left: 0.11em;
 
-      .myNameLowerCase {
+      .my-name-lower-case {
         font-size: .9em;
       }
     }
@@ -136,14 +136,14 @@
     .nathaniel {
       font-family: "acier-bat-gris";
       text-align: center;  
-      color: red;
+      color: $logo-color-pop;
       font-size: 2em;
       line-height: 0em;
       letter-spacing: -0.03em;
 
       .n {
         font-family: "acier-bat-outline";
-        color: red;
+        color: $logo-color-pop;
         font-size: 1.3em;
         line-height: .15em;
         letter-spacing: -0.02em;
@@ -153,7 +153,7 @@
 
       .l {
         font-family: "acier-bat-gris";
-        color: red;
+        color: $logo-color-pop;
         font-size: 1.3em;
         line-height: .4em;
       }
@@ -168,7 +168,7 @@
       line-height: 2.5em;
     }
 
-    .andImA {
+    .and-im-a {
       font-family: "texas-hero";
       text-align: center;  
       color: white;
@@ -176,7 +176,7 @@
       line-height: 0.4em;
     }
 
-    .andImABlankElement {
+    .and-im-a-blank-element {
       line-height: 0.07em;
       color: transparent;
     }
@@ -184,7 +184,7 @@
     .coder {
       font-family: "acier-bat-outline";
       text-align: center;  
-      color: red;
+      color: $logo-color-pop;
       letter-spacing: -0.04em;
       font-weight: 900;
       margin-left: -0.1em;
@@ -195,7 +195,7 @@
       }
     }
 
-    .downTriangle {
+    .down-triangle {
       font-family: "hobeaux-rococeaux";
       text-align: center;
       color: white;

@@ -15,7 +15,7 @@
   box-sizing: border-box;
   /* box-shadow: inset 0px 3px 10px 0 #000000; */
 
-  .exhibitHolder {
+  .exhibit-holder {
     background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
     height: 20vh; 
     margin-bottom: 10vh;
@@ -26,15 +26,15 @@
     /* box-shadow: 0px 2px 5px #888888; */
   }
 
-  .holderVariant1 {
+  .holder-variant-skinny {
     height: 10vh;
   }
 
-  .holderVariant2 {
+  .holder-variant-tall {
     height: 30vh;
   }
 
-  .LogoShowRoom {
+  .logo-show-room {
     height: 40vh;
     background-image: none;
     cursor: default;

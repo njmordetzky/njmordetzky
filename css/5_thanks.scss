@@ -7,7 +7,7 @@
   position: relative;
   overflow: hidden;
 
-  .topPlaceholder {
+  .top-placeholder {
     width: 100vw;
     height: 30vh;
     background: #71a2b2;
@@ -20,7 +20,7 @@
     float: left;
     background: #589b98;
 
-    .moreText {
+    .more-text {
       margin-top: 4vh;
       margin-left: -0.15em;
       transform: rotate(90deg);
@@ -33,13 +33,13 @@
     }
   }
 
-  .thanksMainContent {
+  .thanks-main-content {
     z-index: -1;
     height: 35vh;
     width: 100vw;
     position: relative;
 
-    .thisSite {
+    .this-site {
       position: absolute;
       width: 12em;
       right: 24.5em;
@@ -50,7 +50,7 @@
       letter-spacing: 0.3em;
     }
 
-    .thankYou {
+    .thank-you {
       position: absolute;
       width: 12em;
       right: 24.5em;
@@ -81,7 +81,7 @@
       margin-left: 11.65vw;
     }
 
-    .dottedLine {
+    .dotted-line {
       position: absolute;
       bottom: 0;
       left: 0; 
@@ -93,10 +93,10 @@
   }
 }
 
-.thanksFooter {
+.thanks-footer {
   border-top: 1px solid #f8f0f9;
 
-  .thanksFooterLeft {
+  .thanks-footer-left {
     font-size: 12px;
     font-family: "de-walpergens-pica";
     margin: auto;
@@ -106,7 +106,7 @@
     text-align: center;
   }
 
-  .thanksFooterRight {
+  .thanks-footer-right {
     font-size: 12px;
     font-family: "de-walpergens-pica";
     display: inline-block;

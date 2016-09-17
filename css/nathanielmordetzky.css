@@ -19,21 +19,21 @@
   align-items: center;
   justify-content: center;
 }
-.header .opaqueImg1 {
+.header .opaque-img-rafters {
   position: absolute;
   height: 148vh;
   opacity: 0.15;
   bottom: 0vh;
   overflow: hidden;
 }
-.header .opaqueImg2 {
+.header .opaque-img-treetops {
   position: absolute;
   height: 160vh;
   opacity: 0.03;
   bottom: 0vh;
   overflow: hidden;
 }
-.header .navDiv1 {
+.header .nav-div1 {
   position: absolute;
   width: 0.54em;
   height: 11vh;
@@ -42,7 +42,7 @@
   right: 1.73em;
   z-index: 999;
 }
-.header .navDiv2 {
+.header .nav-div2 {
   position: absolute;
   width: 0.799em;
   height: 11vh;
@@ -51,7 +51,7 @@
   right: 0.9em;
   z-index: 999;
 }
-.header .navDiv3 {
+.header .nav-div3 {
   position: fixed;
   width: 1.35em;
   height: 11vh;
@@ -60,7 +60,7 @@
   right: -0.48em;
   z-index: 999;
 }
-.header .navStyleDiv1 {
+.header .nav-style-div1 {
   position: absolute;
   width: 0.03em;
   height: 28vh;
@@ -69,7 +69,7 @@
   right: 3.36em;
   z-index: 999;
 }
-.header .navStyleDiv2 {
+.header .nav-style-div2 {
   position: absolute;
   width: 0.06em;
   height: 20vh;
@@ -78,7 +78,7 @@
   right: 3.28em;
   z-index: 999;
 }
-.header .navStylediv3 {
+.header .nav-style-div3 {
   position: absolute;
   width: 0.02em;
   height: 16vh;
@@ -87,7 +87,7 @@
   right: 2.4em;
   z-index: 999;
 }
-.header .navLinks {
+.header .nav-links {
   position: fixed;
   top: 8.7vh;
   right: 1em;
@@ -103,7 +103,7 @@
 .header .logo {
   margin: auto;
 }
-.header .logo .upTriangle {
+.header .logo .up-triangle {
   font-family: "hobeaux-rococeaux";
   font-size: .8em;
   text-align: center;
@@ -111,14 +111,14 @@
   line-height: .1em;
   transform: rotate(-180deg);
 }
-.header .logo .myNameIs {
+.header .logo .my-name-is {
   font-family: "acier-bat-outline";
   text-align: center;
   color: white;
   letter-spacing: 0.14em;
   margin-left: 0.11em;
 }
-.header .logo .myNameIs .myNameLowerCase {
+.header .logo .my-name-is .my-name-lower-case {
   font-size: .9em;
 }
 .header .logo .nathaniel {
@@ -152,14 +152,14 @@
   font-size: 0.25em;
   line-height: 2.5em;
 }
-.header .logo .andImA {
+.header .logo .and-im-a {
   font-family: "texas-hero";
   text-align: center;
   color: white;
   font-size: 0.8em;
   line-height: 0.4em;
 }
-.header .logo .andImABlankElement {
+.header .logo .and-im-a-blank-element {
   line-height: 0.07em;
   color: transparent;
 }
@@ -175,7 +175,7 @@
 .header .logo .coder .er {
   letter-spacing: -0.02em;
 }
-.header .logo .downTriangle {
+.header .logo .down-triangle {
   font-family: "hobeaux-rococeaux";
   text-align: center;
   color: white;
@@ -196,7 +196,7 @@
   margin: 2em auto;
   padding: 2em;
 }
-.bio .paragraph1 .giantFirstLetter {
+.bio .paragraph1 .giant-first-letter {
   font-family: de-walpergens-pica;
   font-size: 80px;
   line-height: 0em;
@@ -210,7 +210,7 @@
   padding: 1em;
 }
 
-.bottomDoodle {
+.bottom-doodle {
   font-family: "hobeaux-rococeaux";
   text-align: center;
   font-size: 1em;
@@ -226,7 +226,7 @@
   margin: none;
   overflow: hidden;
 }
-.skills .skilBox {
+.skills .skil-box {
   width: 10vw;
   height: 10vw;
   background: transparent;
@@ -243,18 +243,18 @@
   color: transparent;
   text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
 }
-.skills .skilBoxBoldFont {
+.skills .skil-box-bold-font {
   text-shadow: none;
   color: black;
   font-weight: 900;
   font-size: 1em;
 }
-.skills .skilBoxThinFont {
+.skills .skil-box-thin-font {
   text-shadow: none;
   color: black;
   font-size: 1em;
 }
-.skills .skilBoxIcon {
+.skills .skil-box-icon {
   background-image: url("http://nathanielmordetzky.com/img/wormwood%20inverse.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -284,7 +284,7 @@
     text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
   }
 }
-.skillsBottom {
+.skills-bottom {
   width: 100vw;
   height: 30vh;
   background: linen;
@@ -307,7 +307,7 @@
   box-sizing: border-box;
   /* box-shadow: inset 0px 3px 10px 0 #000000; */
 }
-.showroom .exhibitHolder {
+.showroom .exhibit-holder {
   background-image: url("http://nathanielmordetzky.com/img/mysite11.jpeg");
   height: 20vh;
   margin-bottom: 10vh;
@@ -318,13 +318,13 @@
   -webkit-column-break-inside: avoid;
   /* box-shadow: 0px 2px 5px #888888; */
 }
-.showroom .holderVariant1 {
+.showroom .holder-variant-skinny {
   height: 10vh;
 }
-.showroom .holderVariant2 {
+.showroom .holder-variant-tall {
   height: 30vh;
 }
-.showroom .LogoShowRoom {
+.showroom .logo-show-room {
   height: 40vh;
   background-image: none;
   cursor: default;
@@ -337,21 +337,21 @@
   letter-spacing: 0.01em;
   /* transform: rotate(90deg); */
 }
-.showroom .LogoShowRoom .s {
+.showroom .logo-show-room .s {
   font-size: 3em;
   line-height: 0.0px;
 }
-.showroom .LogoShowRoom .how {
+.showroom .logo-show-room .how {
   font-size: 1.4em;
   line-height: 0.86em;
   margin-left: 6.5vw;
 }
-.showroom .LogoShowRoom .r {
+.showroom .logo-show-room .r {
   font-size: 3em;
   line-height: 0.7em;
   padding-left: 6vw;
 }
-.showroom .LogoShowRoom .oom {
+.showroom .logo-show-room .oom {
   font-size: 1.4em;
   line-height: 0em;
   margin-left: 13vw;
@@ -368,7 +368,7 @@
   position: relative;
   overflow: hidden;
 }
-.thanks .topPlaceholder {
+.thanks .top-placeholder {
   width: 100vw;
   height: 30vh;
   background: #71a2b2;
@@ -380,7 +380,7 @@
   float: left;
   background: #589b98;
 }
-.thanks .more .moreText {
+.thanks .more .more-text {
   margin-top: 4vh;
   margin-left: -0.15em;
   transform: rotate(90deg);
@@ -391,13 +391,13 @@
   font-family: "acier-bat-noir";
   letter-spacing: 0.8em;
 }
-.thanks .thanksMainContent {
+.thanks .thanks-main-content {
   z-index: -1;
   height: 35vh;
   width: 100vw;
   position: relative;
 }
-.thanks .thanksMainContent .thisSite {
+.thanks .thanks-main-content .this-site {
   position: absolute;
   width: 12em;
   right: 24.5em;
@@ -407,7 +407,7 @@
   font-size: 0.2em;
   letter-spacing: 0.3em;
 }
-.thanks .thanksMainContent .thankYou {
+.thanks .thanks-main-content .thank-you {
   position: absolute;
   width: 12em;
   right: 24.5em;
@@ -417,7 +417,7 @@
   font-size: 0.2em;
   letter-spacing: 0.3em;
 }
-.thanks .thanksMainContent .selfie {
+.thanks .thanks-main-content .selfie {
   position: absolute;
   bottom: -1.7em;
   left: 42vw;
@@ -426,7 +426,7 @@
   border-radius: 16vw;
   z-index: 1;
 }
-.thanks .thanksMainContent .signature {
+.thanks .thanks-main-content .signature {
   position: absolute;
   bottom: 0;
   font-size: 1.6em;
@@ -435,7 +435,7 @@
   font-family: "texas-hero";
   margin-left: 11.65vw;
 }
-.thanks .thanksMainContent .dottedLine {
+.thanks .thanks-main-content .dotted-line {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -445,10 +445,10 @@
   white-space: nowrap;
 }
 
-.thanksFooter {
+.thanks-footer {
   border-top: 1px solid #f8f0f9;
 }
-.thanksFooter .thanksFooterLeft {
+.thanks-footer .thanks-footer-left {
   font-size: 12px;
   font-family: "de-walpergens-pica";
   margin: auto;
@@ -457,7 +457,7 @@
   width: 49vw;
   text-align: center;
 }
-.thanksFooter .thanksFooterRight {
+.thanks-footer .thanks-footer-right {
   font-size: 12px;
   font-family: "de-walpergens-pica";
   display: inline-block;
@@ -467,7 +467,7 @@
   height: 21vh;
 }
 
-.artistsContributing {
+.artists-contributing {
   max-width: 100vw;
   width: 100vw;
   height: 100vh;
@@ -476,7 +476,7 @@
   position: relative;
   overflow: hidden;
 }
-.artistsContributing .mainLargeImage {
+.artists-contributing .main-large-image {
   margin: 10vh 5vw 1vh;
   width: 90vw;
   height: 45vh;
@@ -485,12 +485,12 @@
   background-size: cover;
   overflow: hidden;
 }
-.artistsContributing .smallImages {
+.artists-contributing .small-images {
   margin: 1vh 5vw 21vh;
   width: 90vw;
   height: 25vh;
 }
-.artistsContributing .smallImages .smlImg1 {
+.artists-contributing .small-images .sml-img1 {
   width: 22.125vw;
   height: 25vh;
   margin: 0;
@@ -501,7 +501,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artistsContributing .smallImages .smlImg2 {
+.artists-contributing .small-images .sml-img2 {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -512,7 +512,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artistsContributing .smallImages .smlImg3 {
+.artists-contributing .small-images .sml-img3 {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -523,7 +523,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artistsContributing .smallImages .smlImg4 {
+.artists-contributing .small-images .sml-img4 {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
