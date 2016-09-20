@@ -7,7 +7,7 @@
   display: none;
 }
 
-.header {
+.content-wrapper {
   background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
   background-image: no-repeat;
   background-size: cover;
@@ -19,21 +19,21 @@
   align-items: center;
   justify-content: center;
 }
-.header .opaque-img-rafters {
+.content-wrapper .opaque-img-rafters {
   position: absolute;
   height: 148vh;
   opacity: 0.15;
   bottom: 0vh;
   overflow: hidden;
 }
-.header .opaque-img-treetops {
+.content-wrapper .opaque-img-treetops {
   position: absolute;
   height: 160vh;
   opacity: 0.03;
   bottom: 0vh;
   overflow: hidden;
 }
-.header .nav-div1 {
+.content-wrapper .header .nav-div-wrapper div:nth-child(1) {
   position: absolute;
   width: 0.54em;
   height: 11vh;
@@ -42,7 +42,7 @@
   right: 1.73em;
   z-index: 999;
 }
-.header .nav-div2 {
+.content-wrapper .header .nav-div-wrapper div:nth-child(2) {
   position: absolute;
   width: 0.799em;
   height: 11vh;
@@ -51,7 +51,7 @@
   right: 0.9em;
   z-index: 999;
 }
-.header .nav-div3 {
+.content-wrapper .header .nav-div-wrapper div:nth-child(3) {
   position: fixed;
   width: 1.35em;
   height: 11vh;
@@ -60,7 +60,7 @@
   right: -0.48em;
   z-index: 999;
 }
-.header .nav-style-div1 {
+.content-wrapper .header .nav-div-wrapper .nav-styled-divs div:nth-child(1) {
   position: absolute;
   width: 0.03em;
   height: 28vh;
@@ -69,7 +69,7 @@
   right: 3.36em;
   z-index: 999;
 }
-.header .nav-style-div2 {
+.content-wrapper .header .nav-div-wrapper .nav-styled-divs div:nth-child(2) {
   position: absolute;
   width: 0.06em;
   height: 20vh;
@@ -78,7 +78,7 @@
   right: 3.28em;
   z-index: 999;
 }
-.header .nav-style-div3 {
+.content-wrapper .header .nav-div-wrapper .nav-styled-divs div:nth-child(3) {
   position: absolute;
   width: 0.02em;
   height: 16vh;
@@ -87,7 +87,7 @@
   right: 2.4em;
   z-index: 999;
 }
-.header .nav-links {
+.content-wrapper .header .nav-links {
   position: fixed;
   top: 8.7vh;
   right: 1em;
@@ -100,37 +100,43 @@
   line-height: 2.3em;
   z-index: 999;
 }
-.header .logo {
+.content-wrapper .header .nav-links .nav-link-style {
+  font-size: 1em;
+  text-decoration: none;
+  color: #a4c0cb;
+  cursor: crosshair;
+}
+.content-wrapper .welcome-main .logo {
   margin: auto;
 }
-.header .logo .up-triangle {
-  font-family: "hobeaux-rococeaux";
+.content-wrapper .welcome-main .logo .up-triangle {
+  font-family: hobeaux-rococeaux;
   font-size: .8em;
   text-align: center;
   color: white;
   line-height: .1em;
   transform: rotate(-180deg);
 }
-.header .logo .my-name-is {
-  font-family: "acier-bat-outline";
+.content-wrapper .welcome-main .logo .my-name-is {
+  font-family: acier-bat-outline;
   text-align: center;
   color: white;
   letter-spacing: 0.14em;
   margin-left: 0.11em;
 }
-.header .logo .my-name-is .my-name-lower-case {
+.content-wrapper .welcome-main .logo .my-name-is .my-name-lower-case {
   font-size: .9em;
 }
-.header .logo .nathaniel {
-  font-family: "acier-bat-gris";
+.content-wrapper .welcome-main .logo .nathaniel {
+  font-family: acier-bat-gris;
   text-align: center;
   color: red;
   font-size: 2em;
   line-height: 0em;
   letter-spacing: -0.03em;
 }
-.header .logo .nathaniel .n {
-  font-family: "acier-bat-outline";
+.content-wrapper .welcome-main .logo .nathaniel .n {
+  font-family: acier-bat-outline;
   color: red;
   font-size: 1.3em;
   line-height: .15em;
@@ -138,33 +144,33 @@
   text-align: center;
   margin-left: -0.13em;
 }
-.header .logo .nathaniel .l {
-  font-family: "acier-bat-gris";
+.content-wrapper .welcome-main .logo .nathaniel .l {
+  font-family: acier-bat-gris;
   color: red;
   font-size: 1.3em;
   line-height: .4em;
 }
-.header .logo .line {
-  font-family: "acier-bat-outline";
+.content-wrapper .welcome-main .logo .line {
+  font-family: acier-bat-outline;
   text-align: center;
   color: white;
   font-weight: 100;
   font-size: 0.25em;
   line-height: 2.5em;
 }
-.header .logo .and-im-a {
-  font-family: "texas-hero";
+.content-wrapper .welcome-main .logo .and-im-a {
+  font-family: texas-hero;
   text-align: center;
   color: white;
   font-size: 0.8em;
   line-height: 0.4em;
 }
-.header .logo .and-im-a-blank-element {
+.content-wrapper .welcome-main .logo .and-im-a-blank-element {
   line-height: 0.07em;
   color: transparent;
 }
-.header .logo .coder {
-  font-family: "acier-bat-outline";
+.content-wrapper .welcome-main .logo .coder {
+  font-family: acier-bat-outline;
   text-align: center;
   color: red;
   letter-spacing: -0.04em;
@@ -172,11 +178,11 @@
   margin-left: -0.1em;
   line-height: 1.3;
 }
-.header .logo .coder .er {
+.content-wrapper .welcome-main .logo .coder .er {
   letter-spacing: -0.02em;
 }
-.header .logo .down-triangle {
-  font-family: "hobeaux-rococeaux";
+.content-wrapper .welcome-main .logo .down-triangle {
+  font-family: hobeaux-rococeaux;
   text-align: center;
   color: white;
   font-size: .8em;
@@ -188,7 +194,7 @@
   border: 0;
   margin: 0;
 }
-.bio .paragraph1 {
+.bio p:nth-child(1) {
   font-family: de-walpergens-pica;
   font-size: 20px;
   max-width: 35%;
@@ -196,12 +202,12 @@
   margin: 2em auto;
   padding: 2em;
 }
-.bio .paragraph1 .giant-first-letter {
+.bio p:nth-child(1) .giant-first-letter {
   font-family: de-walpergens-pica;
   font-size: 80px;
   line-height: 0em;
 }
-.bio .paragraph2 {
+.bio p:nth-child(2) {
   font-family: de-walpergens-pica;
   font-size: 20px;
   max-width: 35%;
@@ -211,7 +217,7 @@
 }
 
 .bottom-doodle {
-  font-family: "hobeaux-rococeaux";
+  font-family: hobeaux-rococeaux;
   text-align: center;
   font-size: 1em;
 }
@@ -235,7 +241,7 @@
   padding: 0px;
   margin: 0px;
   font-size: 0.17em;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   font-weight: 100;
   text-align: center;
   vertical-align: middle;
@@ -328,7 +334,7 @@
   height: 40vh;
   background-image: none;
   cursor: default;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   color: black;
   font-size: 1em;
   padding: 40px 20px;
@@ -388,7 +394,7 @@
   color: white;
   overflow: visible;
   white-space: nowrap;
-  font-family: "acier-bat-noir";
+  font-family: acier-bat-noir;
   letter-spacing: 0.8em;
 }
 .thanks .thanks-main-content {
@@ -402,7 +408,7 @@
   width: 12em;
   right: 24.5em;
   bottom: 8em;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   white-space: normal;
   font-size: 0.2em;
   letter-spacing: 0.3em;
@@ -412,7 +418,7 @@
   width: 12em;
   right: 24.5em;
   bottom: -10.5em;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   white-space: normal;
   font-size: 0.2em;
   letter-spacing: 0.3em;
@@ -432,7 +438,7 @@
   font-size: 1.6em;
   font-weight: 100;
   line-height: 0.5em;
-  font-family: "texas-hero";
+  font-family: texas-hero;
   margin-left: 11.65vw;
 }
 .thanks .thanks-main-content .dotted-line {
@@ -450,7 +456,7 @@
 }
 .thanks-footer .thanks-footer-left {
   font-size: 12px;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   margin: auto;
   border: none;
   display: inline-block;
@@ -459,7 +465,7 @@
 }
 .thanks-footer .thanks-footer-right {
   font-size: 12px;
-  font-family: "de-walpergens-pica";
+  font-family: de-walpergens-pica;
   display: inline-block;
   width: 49vw;
   color: black;
@@ -490,7 +496,7 @@
   width: 90vw;
   height: 25vh;
 }
-.artists-contributing .small-images .sml-img1 {
+.artists-contributing .small-images div:nth-child(1) {
   width: 22.125vw;
   height: 25vh;
   margin: 0;
@@ -501,7 +507,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artists-contributing .small-images .sml-img2 {
+.artists-contributing .small-images div:nth-child(2) {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -512,7 +518,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artists-contributing .small-images .sml-img3 {
+.artists-contributing .small-images div:nth-child(3) {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;
@@ -523,7 +529,7 @@
   background-size: cover;
   overflow: hidden;
 }
-.artists-contributing .small-images .sml-img4 {
+.artists-contributing .small-images div:nth-child(4) {
   width: 22.125vw;
   height: 25vh;
   margin: 0 0 0 0.5vw;

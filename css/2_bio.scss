@@ -3,7 +3,7 @@
   border: 0;
   margin: 0;
 
-  .paragraph1 {
+  p:nth-child(1) {
     font-family: $main-font-ink;
     font-size: 20px;
     max-width: 35%;
@@ -18,7 +18,7 @@
     }
   }
 
-  .paragraph2 {
+  p:nth-child(2) {
     font-family: $main-font-ink;
     font-size: 20px;
     max-width: 35%;
@@ -29,7 +29,7 @@
 }
 
 .bottom-doodle {
-  font-family: "hobeaux-rococeaux";
+  font-family: $artichoke-font;
   text-align: center;
   font-size: 1em;
 }

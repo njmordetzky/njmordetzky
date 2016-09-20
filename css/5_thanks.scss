@@ -28,7 +28,7 @@
       color: white;
       overflow: visible;
       white-space: nowrap;
-      font-family: "acier-bat-noir";
+      font-family: $logo-half-full;
       letter-spacing: 0.8em;
     }
   }
@@ -44,7 +44,7 @@
       width: 12em;
       right: 24.5em;
       bottom: 8em;
-      font-family: "de-walpergens-pica";
+      font-family: $main-font-ink;
       white-space: normal;
       font-size: 0.2em;
       letter-spacing: 0.3em;
@@ -55,7 +55,7 @@
       width: 12em;
       right: 24.5em;
       bottom: -10.5em;
-      font-family: "de-walpergens-pica";
+      font-family: $main-font-ink;
       white-space: normal;
       font-size: 0.2em;
       letter-spacing: 0.3em;
@@ -77,7 +77,7 @@
       font-size: 1.6em;
       font-weight: 100;
       line-height: 0.5em;
-      font-family: "texas-hero";
+      font-family: $cursive;
       margin-left: 11.65vw;
     }
 
@@ -98,7 +98,7 @@
 
   .thanks-footer-left {
     font-size: 12px;
-    font-family: "de-walpergens-pica";
+    font-family: $main-font-ink;
     margin: auto;
     border: none;
     display: inline-block;
@@ -108,7 +108,7 @@
 
   .thanks-footer-right {
     font-size: 12px;
-    font-family: "de-walpergens-pica";
+    font-family: $main-font-ink;
     display: inline-block;
     width: 49vw;
     color: black;

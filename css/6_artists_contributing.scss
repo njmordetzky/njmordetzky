@@ -22,7 +22,7 @@
     width: 90vw;
     height: 25vh;
 
-    .sml-img1 {
+    div:nth-child(1) {
       width: 22.125vw;
       height: 25vh;
       margin: 0;
@@ -34,7 +34,7 @@
       overflow: hidden;
     }
 
-    .sml-img2 {
+    div:nth-child(2) {
       width: 22.125vw;
       height: 25vh;
       margin: 0 0 0 0.5vw;
@@ -46,7 +46,7 @@
       overflow: hidden;
     }
 
-    .sml-img3 {
+    div:nth-child(3) {
       width: 22.125vw;
       height: 25vh;
       margin: 0 0 0 0.5vw;
@@ -58,7 +58,7 @@
       overflow: hidden;
     }
 
-    .sml-img4 {
+    div:nth-child(4) {
       width: 22.125vw;
       height: 25vh;
       margin: 0 0 0 0.5vw;

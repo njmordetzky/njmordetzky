@@ -7,7 +7,7 @@
   display: none; 
 }
 
-.header {
+.content-wrapper {
   background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
   background-image: no-repeat;
   background-size: cover;
@@ -35,172 +35,191 @@
     overflow: hidden;
   }
 
-  .nav-div1 {
-    position: absolute;
-    width: 0.54em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: 1.73em;
-    z-index: 999;
-  }
+  .header {
 
-  .nav-div2 {
-    position: absolute;
-    width: 0.799em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: 0.9em;
-    z-index: 999;
-  }
+    .nav-div-wrapper {
 
-  .nav-div3 {
-    position: fixed;
-    width: 1.35em;
-    height: 11vh;
-    background: rgba(0, 24, 47, 0.51);
-    top: 0;
-    right: -0.48em;
-    z-index: 999;
-  }
+      div:nth-child(1) {
+        position: absolute;
+        width: 0.54em;
+        height: 11vh;
+        background: rgba(0, 24, 47, 0.51);
+        top: 0;
+        right: 1.73em;
+        z-index: 999;
+      }
 
-  .nav-style-div1 {
-    position: absolute;
-    width: 0.03em;
-    height: 28vh;
-    background: rgba(0, 24, 47, 0.3);
-    top: 0;
-    right: 3.36em;
-    z-index: 999;
-  }
+      div:nth-child(2) {
+        position: absolute;
+        width: 0.799em;
+        height: 11vh;
+        background: rgba(0, 24, 47, 0.51);
+        top: 0;
+        right: 0.9em;
+        z-index: 999;
+      }
 
-  .nav-style-div2 {
-    position: absolute;
-    width: 0.06em;
-    height: 20vh;
-    background: rgba(0, 24, 47, 0.4);
-    top: 0;
-    right: 3.28em;
-    z-index: 999;
-  }
+      div:nth-child(3) {
+        position: fixed;
+        width: 1.35em;
+        height: 11vh;
+        background: rgba(0, 24, 47, 0.51);
+        top: 0;
+        right: -0.48em;
+        z-index: 999;
+      }
 
-  .nav-style-div3 {
-    position: absolute;
-    width: 0.02em;
-    height: 16vh;
-    background: rgba(0, 24, 47, 0.25);
-    top: 0;
-    right: 2.4em;
-    z-index: 999;
-  }
+      .nav-styled-divs {
 
-  .nav-links {
-    position: fixed;
-    top: 8.7vh;
-    right: 1em;
-    width: 14em;
-    height: 1em;
-    color: #a4c0cb;
-    font-family: $nav-link-font;
-    font-size: 0.15em;
-    letter-spacing: 1.1px;
-    line-height: 2.3em;
-    z-index: 999;
-  }
+        div:nth-child(1) {
+          position: absolute;
+          width: 0.03em;
+          height: 28vh;
+          background: rgba(0, 24, 47, 0.3);
+          top: 0;
+          right: 3.36em;
+          z-index: 999;
+        }
 
-  .logo {
-    margin: auto;
+        div:nth-child(2) {
+          position: absolute;
+          width: 0.06em;
+          height: 20vh;
+          background: rgba(0, 24, 47, 0.4);
+          top: 0;
+          right: 3.28em;
+          z-index: 999;
+        }
 
-    .up-triangle {
-      font-family: "hobeaux-rococeaux";
-      font-size: .8em;
-      text-align: center;
-      color: white;
-      line-height: .1em;
-      transform: rotate(-180deg);
-    }
-
-    .my-name-is {
-      font-family: "acier-bat-outline";
-      text-align: center;
-      color: white;
-      letter-spacing: 0.14em;
-      margin-left: 0.11em;
-
-      .my-name-lower-case {
-        font-size: .9em;
+        div:nth-child(3) {
+          position: absolute;
+          width: 0.02em;
+          height: 16vh;
+          background: rgba(0, 24, 47, 0.25);
+          top: 0;
+          right: 2.4em;
+          z-index: 999;
+        }
       }
     }
 
-    .nathaniel {
-      font-family: "acier-bat-gris";
-      text-align: center;  
-      color: $logo-color-pop;
-      font-size: 2em;
-      line-height: 0em;
-      letter-spacing: -0.03em;
+    .nav-links {
+      position: fixed;
+      top: 8.7vh;
+      right: 1em;
+      width: 14em;
+      height: 1em;
+      color: #a4c0cb;
+      font-family: $nav-link-font;
+      font-size: 0.15em;
+      letter-spacing: 1.1px;
+      line-height: 2.3em;
+      z-index: 999;
 
-      .n {
-        font-family: "acier-bat-outline";
+      .nav-link-style {
+        font-size: 1em;
+        text-decoration: none;
+        color: #a4c0cb;
+        cursor: crosshair;
+      }
+    }
+  }
+
+  .welcome-main {
+
+    .logo {
+      margin: auto;
+
+      .up-triangle {
+        font-family: $artichoke-font;
+        font-size: .8em;
+        text-align: center;
+        color: white;
+        line-height: .1em;
+        transform: rotate(-180deg);
+      }
+
+      .my-name-is {
+        font-family: $logo-outline;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.14em;
+        margin-left: 0.11em;
+
+        .my-name-lower-case {
+          font-size: .9em;
+        }
+      }
+
+      .nathaniel {
+        font-family: $logo-crosshatched;
+        text-align: center;  
         color: $logo-color-pop;
-        font-size: 1.3em;
-        line-height: .15em;
-        letter-spacing: -0.02em;
-        text-align: center; 
-        margin-left: -0.13em;
+        font-size: 2em;
+        line-height: 0em;
+        letter-spacing: -0.03em;
+
+        .n {
+          font-family: $logo-outline;
+          color: $logo-color-pop;
+          font-size: 1.3em;
+          line-height: .15em;
+          letter-spacing: -0.02em;
+          text-align: center; 
+          margin-left: -0.13em;
+        }
+
+        .l {
+          font-family: $logo-crosshatched;
+          color: $logo-color-pop;
+          font-size: 1.3em;
+          line-height: .4em;
+        }
       }
 
-      .l {
-        font-family: "acier-bat-gris";
+      .line {
+        font-family: $logo-outline;
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        font-size: 0.25em;
+        line-height: 2.5em;
+      }
+
+      .and-im-a {
+        font-family: $cursive;
+        text-align: center;  
+        color: white;
+        font-size: 0.8em;
+        line-height: 0.4em;
+      }
+
+      .and-im-a-blank-element {
+        line-height: 0.07em;
+        color: transparent;
+      }
+
+      .coder {
+        font-family: $logo-outline;
+        text-align: center;  
         color: $logo-color-pop;
-        font-size: 1.3em;
-        line-height: .4em;
+        letter-spacing: -0.04em;
+        font-weight: 900;
+        margin-left: -0.1em;
+        line-height: 1.3;
+
+        .er {
+          letter-spacing: -0.02em;
+        }
       }
-    }
 
-    .line {
-      font-family: "acier-bat-outline";
-      text-align: center;
-      color: white;
-      font-weight: 100;
-      font-size: 0.25em;
-      line-height: 2.5em;
-    }
-
-    .and-im-a {
-      font-family: "texas-hero";
-      text-align: center;  
-      color: white;
-      font-size: 0.8em;
-      line-height: 0.4em;
-    }
-
-    .and-im-a-blank-element {
-      line-height: 0.07em;
-      color: transparent;
-    }
-
-    .coder {
-      font-family: "acier-bat-outline";
-      text-align: center;  
-      color: $logo-color-pop;
-      letter-spacing: -0.04em;
-      font-weight: 900;
-      margin-left: -0.1em;
-      line-height: 1.3;
-
-      .er {
-        letter-spacing: -0.02em;
+      .down-triangle {
+        font-family: $artichoke-font;
+        text-align: center;
+        color: white;
+        font-size: .8em;
+        line-height: 0em;
       }
-    }
-
-    .down-triangle {
-      font-family: "hobeaux-rococeaux";
-      text-align: center;
-      color: white;
-      font-size: .8em;
-      line-height: 0em;
     }
   }
 }
