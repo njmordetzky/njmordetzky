@@ -41,31 +41,37 @@
     font-family: $main-font-ink;
     color: black;
     font-size: 1em;
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
+    /*padding: 0.46em 0.22em;*/
+    padding: 4.1vh 1.03vw;
     box-sizing: border-box;
     line-height: 40vH; 
     letter-spacing: 0.01em;
     /* transform: rotate(90deg); */
 
     .s {
-      font-size: 3em;
+      /*font-size: 3em;*/
+      font-size: 14.06vw;
       line-height: 0.0px;
     }
 
     .how {
-        font-size: 1.4em;
+        /*font-size: 1.4em;*/
+        font-size: 6.56vw;    
         line-height: 0.86em;
         margin-left: 6.5vw;
     }
 
     .r {
-      font-size: 3em;
+      /*font-size: 3em;*/
+      font-size: 14.06vw;
       line-height: 0.7em;
       padding-left: 6vw;
     }
 
     .oom {
-        font-size: 1.4em;
+        /*font-size: 1.4em;*/
+        font-size: 6.56vw;            
         line-height: 0em;
         margin-left: 13vw;
         margin-top: -0.79em;

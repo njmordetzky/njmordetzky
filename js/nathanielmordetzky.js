@@ -1,8 +1,12 @@
 $(document).ready(function(){
-	$('.skilBox').hover(function (e) {
+	$('.skilBox')
+		.on('hover', function() {
+			$(this).addClass('animate');
+		})
+		.hover(function() {
+			$(this).addClass('animate');
+		});
 
-		$(this).addClass('animate');
-	});
 
     $('.skilBox').on(
     	'webkitAnimationEnd \

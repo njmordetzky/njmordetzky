@@ -7,7 +7,7 @@
   display: none; 
 }
 
-.content-wrapper {
+.welcome-content-wrapper {
   background-image: url("http://nathanielmordetzky.com/img/mysite9.jpg");
   background-image: no-repeat;
   background-size: cover;
@@ -18,13 +18,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 
   .opaque-img-rafters {
     position: absolute;
     height: 148vh;
     opacity: 0.15;
     bottom: 0vh;
-    overflow: hidden;
   }
 
   .opaque-img-treetops {
@@ -32,7 +33,6 @@
     height: 160vh;
     opacity: 0.03;
     bottom: 0vh;
-    overflow: hidden;
   }
 
   .header {
@@ -42,6 +42,7 @@
       div:nth-child(1) {
         position: absolute;
         width: 0.54em;
+        /*height: 1.23em;*/
         height: 11vh;
         background: rgba(0, 24, 47, 0.51);
         top: 0;
@@ -69,11 +70,12 @@
         z-index: 999;
       }
 
-      .nav-styled-divs {
+      .nav-rectangle-design {
 
         div:nth-child(1) {
           position: absolute;
           width: 0.03em;
+          /*height: 3.13em;*/
           height: 28vh;
           background: rgba(0, 24, 47, 0.3);
           top: 0;
@@ -84,6 +86,7 @@
         div:nth-child(2) {
           position: absolute;
           width: 0.06em;
+          /*height: 2.23em;*/
           height: 20vh;
           background: rgba(0, 24, 47, 0.4);
           top: 0;
@@ -94,6 +97,7 @@
         div:nth-child(3) {
           position: absolute;
           width: 0.02em;
+          /*height: 1.79em;*/
           height: 16vh;
           background: rgba(0, 24, 47, 0.25);
           top: 0;
@@ -105,7 +109,9 @@
 
     .nav-links {
       position: fixed;
-      top: 8.7vh;
+      /*top: 6.5em;*/
+      /*top: 8.7vh;*/
+      top: 11vh;
       right: 1em;
       width: 14em;
       height: 1em;
@@ -113,7 +119,10 @@
       font-family: $nav-link-font;
       font-size: 0.15em;
       letter-spacing: 1.1px;
-      line-height: 2.3em;
+      /*margin-top: -2.5em;*/
+      /*line-height: 2.5em;*/
+      margin-top: -0.9em;
+      line-height: 0.9em;
       z-index: 999;
 
       .nav-link-style {
@@ -223,3 +232,5 @@
     }
   }
 }
+
+

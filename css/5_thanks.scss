@@ -16,6 +16,7 @@
   .more {
     margin-top: 18vh;
     height: 35vh;
+    /*height: 3.9em;*/
     width: 1.5vw;
     float: left;
     background: #589b98;
@@ -24,7 +25,8 @@
       margin-top: 4vh;
       margin-left: -0.15em;
       transform: rotate(90deg);
-      font-size: 0.2em;
+      /*font-size: 0.2em;*/
+      font-size: 1.76vh;
       color: white;
       overflow: visible;
       white-space: nowrap;
@@ -42,7 +44,8 @@
     .this-site {
       position: absolute;
       width: 12em;
-      right: 24.5em;
+      /*right: 24.5em;*/
+      right: 23vw;
       bottom: 8em;
       font-family: $main-font-ink;
       white-space: normal;
@@ -53,7 +56,8 @@
     .thank-you {
       position: absolute;
       width: 12em;
-      right: 24.5em;
+      /*right: 24.5em;*/
+      right: 23vw;
       bottom: -10.5em;
       font-family: $main-font-ink;
       white-space: normal;
@@ -63,7 +67,8 @@
 
     .selfie {
       position: absolute;
-      bottom: -1.7em;
+      /*bottom: -1.7em;*/
+      bottom: -8vw;
       left: 42vw;
       height: 16vw;
       width: 16vw;
@@ -74,11 +79,18 @@
     .signature {
       position: absolute;
       bottom: 0;
-      font-size: 1.6em;
+      /*font-size: 1.6em;*/
+      font-size: 7.5vw;
       font-weight: 100;
-      line-height: 0.5em;
+      /*line-height: 0.5em;*/
+      line-height: 5.55vw;
       font-family: $cursive;
       margin-left: 11.65vw;
+    }
+
+    .signature-span {
+    width: 15.8vw;
+    display: inline-block;
     }
 
     .dotted-line {
